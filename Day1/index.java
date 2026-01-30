@@ -23,9 +23,8 @@ public class index {
     }
     public static void main(String[] args) {
         index obj = new index();
-        int result = obj.sum(5, 10);
+        int result = sum(5, 10);
         System.out.println("Sum is: " + result);    
-        System.out.println(args[0]);
         int a = 5;
         int b = 10;
         float pi = 3.14f;
