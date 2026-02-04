@@ -28,6 +28,23 @@
 
     <script>
         function handleSubmit() {
+          fetch('http://localhost:8080/login', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              email: document.getElementById('exampleFormControlInput1').value,
+              message: document.getElementById('exampleFormControlTextarea1').value,
+            }),
+          }).then(response => response.json())
+            .then(data => {
+              console.log('Success:', data);
+              alert(data.message);
+            })
+            .catch((error) => {
+              console.error('Error:', error);
+            });
             const email = document.getElementById('exampleFormControlInput1').value;
 
             const body = document.getElementById('exampleFormControlTextarea1').value;
@@ -39,7 +56,6 @@
                 return;
             }
             console.log('Email submitted:', email);
-            // create p tag and display the body message
             if(document.body.contains(document.querySelector('p'))) {
                 document.querySelector('p').remove();
             }
