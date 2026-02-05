@@ -1,1 +1,3 @@
 Day5/node_modules
+.venv/
+__pycache__/
