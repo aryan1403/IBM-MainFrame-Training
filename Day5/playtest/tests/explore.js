@@ -9,7 +9,7 @@ class LoginPage {
   }
 
   async goto() {
-    await this.page.goto('explore.html'); 
+      await this.page.goto('explore.html'); 
   }
 
   async login(email, message) {

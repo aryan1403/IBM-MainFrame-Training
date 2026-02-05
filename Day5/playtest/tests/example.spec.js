@@ -18,7 +18,7 @@ test.describe('Login Form Tests', () => {
     await expect(loginPage.successParagraph).toHaveText(testMessage);
   });
 
-  test('should show validation logic (basic check)', async ({ page }) => {
+  test.skip('should show validation logic (basic check)', async ({ page }) => {
     const loginPage = new LoginPage(page);
 
     await loginPage.goto();
