@@ -5,8 +5,8 @@ const app = express();
 const port = process.env.PORT;
 
 app.get('/api/books', async (req, res) => {
-    console.log(req.params.totalBooks);
-    const totalBooks = parseInt(req.params.totalBooks) || 10;
+    console.log(req.query.totalBooks);
+    const totalBooks = parseInt(req.query.totalBooks) || 10;
     const booksData = await getBooksData(totalBooks);
     res.json({ data: booksData });
 })
