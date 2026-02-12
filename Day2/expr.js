@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
     const name = req.query.name || 'Guest';
-    res.send(`Hello, ${name}!`);
+    res.json({data: `Hello, ${name}!`});
 });
 
 app.post('/login', (req, res) => {
