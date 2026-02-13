@@ -20,6 +20,20 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>2.0.12</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.17.1</version>
+    </dependency>
+
     <!-- REST Assured -->
     <dependency>
       <groupId>io.rest-assured</groupId>

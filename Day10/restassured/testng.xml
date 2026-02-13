@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Test Suite" parallel="methods" thread-count="4">
+
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.GetUsersTest"/>
+            <class name="com.example.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
