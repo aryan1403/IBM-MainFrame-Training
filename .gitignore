@@ -1,3 +1,4 @@
 Day5/playtest/node_modules
 .venv/*
 __pycache__/
+Day10/restassured/target/

@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "download": "npm install",
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^2.2.2",
     "cors": "^2.8.6",

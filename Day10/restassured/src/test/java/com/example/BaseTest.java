@@ -7,7 +7,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setup() {
-        RestAssured.baseURI = "http://localhost:8080";
+        RestAssured.baseURI = "http://host.docker.internal:8080";
         RestAssured.useRelaxedHTTPSValidation();
     }
 }

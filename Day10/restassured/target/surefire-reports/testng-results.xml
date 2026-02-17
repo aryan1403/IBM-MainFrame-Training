@@ -2,70 +2,70 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-12T14:47:26 IST" name="Surefire suite" finished-at="2026-02-12T14:47:27 IST" duration-ms="963">
+  <suite started-at="2026-02-17T06:13:52 UTC" name="Surefire suite" finished-at="2026-02-17T06:13:54 UTC" duration-ms="1742">
     <groups>
       <group name="negative">
-        <method signature="GetUsersTest.invalidEndpoint()[pri:0, instance:com.example.GetUsersTest@46238e3f]" name="invalidEndpoint" class="com.example.GetUsersTest"/>
-        <method signature="LoginTest.loginWithGetMethod()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginWithGetMethod" class="com.example.LoginTest"/>
-        <method signature="LoginTest.loginWithoutEmail()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginWithoutEmail" class="com.example.LoginTest"/>
-        <method signature="LoginTest.loginWithoutPassword()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginWithoutPassword" class="com.example.LoginTest"/>
+        <method signature="GetUsersTest.invalidEndpoint()[pri:0, instance:com.example.GetUsersTest@442675e1]" name="invalidEndpoint" class="com.example.GetUsersTest"/>
+        <method signature="LoginTest.loginWithGetMethod()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginWithGetMethod" class="com.example.LoginTest"/>
+        <method signature="LoginTest.loginWithoutEmail()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginWithoutEmail" class="com.example.LoginTest"/>
+        <method signature="LoginTest.loginWithoutPassword()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginWithoutPassword" class="com.example.LoginTest"/>
       </group> <!-- negative -->
       <group name="regression">
-        <method signature="GetUsersTest.getDefaultUser()[pri:0, instance:com.example.GetUsersTest@46238e3f]" name="getDefaultUser" class="com.example.GetUsersTest"/>
-        <method signature="GetUsersTest.getUserWithName()[pri:0, instance:com.example.GetUsersTest@46238e3f]" name="getUserWithName" class="com.example.GetUsersTest"/>
-        <method signature="GetUsersTest.validateResponseTime()[pri:0, instance:com.example.GetUsersTest@46238e3f]" name="validateResponseTime" class="com.example.GetUsersTest"/>
+        <method signature="GetUsersTest.getDefaultUser()[pri:0, instance:com.example.GetUsersTest@442675e1]" name="getDefaultUser" class="com.example.GetUsersTest"/>
+        <method signature="GetUsersTest.getUserWithName()[pri:0, instance:com.example.GetUsersTest@442675e1]" name="getUserWithName" class="com.example.GetUsersTest"/>
+        <method signature="GetUsersTest.validateResponseTime()[pri:0, instance:com.example.GetUsersTest@442675e1]" name="validateResponseTime" class="com.example.GetUsersTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="GetUsersTest.getDefaultUser()[pri:0, instance:com.example.GetUsersTest@46238e3f]" name="getDefaultUser" class="com.example.GetUsersTest"/>
-        <method signature="LoginTest.loginSuccessUsingPojo()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginSuccessUsingPojo" class="com.example.LoginTest"/>
+        <method signature="GetUsersTest.getDefaultUser()[pri:0, instance:com.example.GetUsersTest@442675e1]" name="getDefaultUser" class="com.example.GetUsersTest"/>
+        <method signature="LoginTest.loginSuccessUsingPojo()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginSuccessUsingPojo" class="com.example.LoginTest"/>
       </group> <!-- smoke -->
       <group name="login">
-        <method signature="LoginTest.loginSuccessUsingPojo()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginSuccessUsingPojo" class="com.example.LoginTest"/>
-        <method signature="LoginTest.loginWithoutEmail()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginWithoutEmail" class="com.example.LoginTest"/>
-        <method signature="LoginTest.loginWithoutPassword()[pri:0, instance:com.example.LoginTest@517cd4b]" name="loginWithoutPassword" class="com.example.LoginTest"/>
+        <method signature="LoginTest.loginSuccessUsingPojo()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginSuccessUsingPojo" class="com.example.LoginTest"/>
+        <method signature="LoginTest.loginWithoutEmail()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginWithoutEmail" class="com.example.LoginTest"/>
+        <method signature="LoginTest.loginWithoutPassword()[pri:0, instance:com.example.LoginTest@27c6e487]" name="loginWithoutPassword" class="com.example.LoginTest"/>
       </group> <!-- login -->
     </groups>
-    <test started-at="2026-02-12T14:47:26 IST" name="Surefire test" finished-at="2026-02-12T14:47:27 IST" duration-ms="963">
+    <test started-at="2026-02-17T06:13:52 UTC" name="Surefire test" finished-at="2026-02-17T06:13:54 UTC" duration-ms="1742">
       <class name="com.example.GetUsersTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.GetUsersTest@46238e3f]" started-at="2026-02-12T14:47:26 IST" name="setup" finished-at="2026-02-12T14:47:26 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.GetUsersTest@442675e1]" started-at="2026-02-17T06:13:52 UTC" name="setup" finished-at="2026-02-17T06:13:52 UTC" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getDefaultUser()[pri:0, instance:com.example.GetUsersTest@46238e3f]" started-at="2026-02-12T14:47:26 IST" name="getDefaultUser" finished-at="2026-02-12T14:47:27 IST" duration-ms="552" status="PASS">
+        <test-method signature="getDefaultUser()[pri:0, instance:com.example.GetUsersTest@442675e1]" started-at="2026-02-17T06:13:52 UTC" name="getDefaultUser" finished-at="2026-02-17T06:13:53 UTC" duration-ms="978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDefaultUser -->
-        <test-method signature="getUserWithName()[pri:0, instance:com.example.GetUsersTest@46238e3f]" started-at="2026-02-12T14:47:27 IST" name="getUserWithName" finished-at="2026-02-12T14:47:27 IST" duration-ms="13" status="PASS">
+        <test-method signature="getUserWithName()[pri:0, instance:com.example.GetUsersTest@442675e1]" started-at="2026-02-17T06:13:53 UTC" name="getUserWithName" finished-at="2026-02-17T06:13:53 UTC" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserWithName -->
-        <test-method signature="invalidEndpoint()[pri:0, instance:com.example.GetUsersTest@46238e3f]" started-at="2026-02-12T14:47:27 IST" name="invalidEndpoint" finished-at="2026-02-12T14:47:27 IST" duration-ms="13" status="PASS">
+        <test-method signature="invalidEndpoint()[pri:0, instance:com.example.GetUsersTest@442675e1]" started-at="2026-02-17T06:13:53 UTC" name="invalidEndpoint" finished-at="2026-02-17T06:13:53 UTC" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidEndpoint -->
-        <test-method signature="validateResponseTime()[pri:0, instance:com.example.GetUsersTest@46238e3f]" started-at="2026-02-12T14:47:27 IST" name="validateResponseTime" finished-at="2026-02-12T14:47:27 IST" duration-ms="10" status="PASS">
+        <test-method signature="validateResponseTime()[pri:0, instance:com.example.GetUsersTest@442675e1]" started-at="2026-02-17T06:13:53 UTC" name="validateResponseTime" finished-at="2026-02-17T06:13:53 UTC" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateResponseTime -->
       </class> <!-- com.example.GetUsersTest -->
       <class name="com.example.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.LoginTest@517cd4b]" started-at="2026-02-12T14:47:27 IST" name="setup" finished-at="2026-02-12T14:47:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.LoginTest@27c6e487]" started-at="2026-02-17T06:13:53 UTC" name="setup" finished-at="2026-02-17T06:13:53 UTC" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginSuccessUsingPojo()[pri:0, instance:com.example.LoginTest@517cd4b]" started-at="2026-02-12T14:47:27 IST" name="loginSuccessUsingPojo" finished-at="2026-02-12T14:47:27 IST" duration-ms="134" status="PASS">
+        <test-method signature="loginSuccessUsingPojo()[pri:0, instance:com.example.LoginTest@27c6e487]" started-at="2026-02-17T06:13:53 UTC" name="loginSuccessUsingPojo" finished-at="2026-02-17T06:13:54 UTC" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessUsingPojo -->
-        <test-method signature="loginWithGetMethod()[pri:0, instance:com.example.LoginTest@517cd4b]" started-at="2026-02-12T14:47:27 IST" name="loginWithGetMethod" finished-at="2026-02-12T14:47:27 IST" duration-ms="4" status="PASS">
+        <test-method signature="loginWithGetMethod()[pri:0, instance:com.example.LoginTest@27c6e487]" started-at="2026-02-17T06:13:54 UTC" name="loginWithGetMethod" finished-at="2026-02-17T06:13:54 UTC" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithGetMethod -->
-        <test-method signature="loginWithoutEmail()[pri:0, instance:com.example.LoginTest@517cd4b]" started-at="2026-02-12T14:47:27 IST" name="loginWithoutEmail" finished-at="2026-02-12T14:47:27 IST" duration-ms="6" status="PASS">
+        <test-method signature="loginWithoutEmail()[pri:0, instance:com.example.LoginTest@27c6e487]" started-at="2026-02-17T06:13:54 UTC" name="loginWithoutEmail" finished-at="2026-02-17T06:13:54 UTC" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutEmail -->
-        <test-method signature="loginWithoutPassword()[pri:0, instance:com.example.LoginTest@517cd4b]" started-at="2026-02-12T14:47:27 IST" name="loginWithoutPassword" finished-at="2026-02-12T14:47:27 IST" duration-ms="7" status="PASS">
+        <test-method signature="loginWithoutPassword()[pri:0, instance:com.example.LoginTest@27c6e487]" started-at="2026-02-17T06:13:54 UTC" name="loginWithoutPassword" finished-at="2026-02-17T06:13:54 UTC" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutPassword -->

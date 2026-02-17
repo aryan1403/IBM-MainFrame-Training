@@ -12,10 +12,10 @@ app.get('/', (req, res) => {
     const name = req.query.name || 'Guest';
     res.json({data: `Hello, ${name}!`});
 });
-
 app.post('/login', (req, res) => {
     const email = req.body.email;
     const password = req.body.message;
+    console.log(email, password);
     res.json({ message: 'Login successful', email, password });
 });
 
